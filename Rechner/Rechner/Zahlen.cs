@@ -8,7 +8,7 @@ namespace Rechner
 {
     class Calculate
     {
-        public int Subtratrahieren(int A,int B)
+        public int Division(int A,int B)
         {
             int C;
             C = A - B;
