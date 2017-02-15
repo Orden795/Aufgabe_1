@@ -8,10 +8,10 @@ namespace Rechner
 {
     class Calculate
     {
-        private int Addition(int A,int B)
+        private int Multiplikation(int A,int B)
         {
 
-            return A + B;
+            return A * B;
         }
 
     }
