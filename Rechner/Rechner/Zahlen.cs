@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace Rechner
 {
-    class Zahlen
+    class Calculate
     {
-        private int Addition(int A,int B)
-        {
-
-            return A + B;
-        }
-
         public int Subtratrahieren(int A,int B)
         {
             int C;
             C = A - B;
             return C;
         }        
+
+        private int Addition(int A,int B)
+        {
+            return A + B;
+        }
     }
 }
