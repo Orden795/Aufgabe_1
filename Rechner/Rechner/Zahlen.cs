@@ -8,5 +8,11 @@ namespace Rechner
 {
     class Zahlen
     {
+        public int Subtratrahieren(int A,int B)
+        {
+            int C;
+            C = A - B;
+            return C;
+        }        
     }
 }
