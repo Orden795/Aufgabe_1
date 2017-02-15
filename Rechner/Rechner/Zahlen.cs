@@ -8,6 +8,12 @@ namespace Rechner
 {
     class Zahlen
     {
+        private int Addition(int A,int B)
+        {
+
+            return A + B;
+        }
+
         public int Subtratrahieren(int A,int B)
         {
             int C;
