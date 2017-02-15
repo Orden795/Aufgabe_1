@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Rechner
 {
-    class Zahlen
+    class Calculate
     {
+        private int Addition(int A,int B)
+        {
+
+            return A + B;
+        }
+
     }
 }
